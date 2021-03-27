@@ -1,0 +1,121 @@
+@media only screen and (max-width: 400px){
+    
+    /* fundacion logoterapia */
+
+    .h1-logoterapia{
+        width: 617px;
+    }
+   
+    /* profesionales */
+
+    .h1-profesionales{
+        width: 617px;
+    }
+
+    .d-flex{
+        position: relative;
+        left: 113px;
+    }
+    .contenedor-profesionales{
+        margin-left: 20px;
+
+    }
+    
+     .card{
+        margin-right: 10px;
+    }
+       
+
+    /* victor frankl*/
+
+    .h1-victor{
+        width: 617px;
+    }
+  
+
+   /* Comunicate con nosotros */
+
+   .h1-comunicate{
+    width: 617px;
+   }
+
+   .contenido-mapa{
+    position: relative;
+    top: 610px;
+    right: 504px;
+   }
+
+   /*footer*/
+   footer{ 
+     width: 620px;
+   
+       .flex-footer{
+        margin-left: 150px;
+       }
+        .texto-footer{
+            
+            margin: auto;
+        }
+
+        .h3-footer{
+        font-size: 15px;
+        
+        }
+
+
+        }
+  
+    
+}
+
+/* fin de mobile */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+   
+   /* logoterapia */
+   
+   .h1-logoterapia{
+    width: 908px;
+ }
+
+
+/* profesionales */
+
+
+ .h1-profesionales{
+    width: 908px;
+ }
+
+ /* Victor frankl */
+
+.h1-victor{
+    width: 908px;
+}
+
+/* Comunicate con nosotros */
+.h1-comunicate{
+    width: 908px;
+}
+
+.mapa{
+    width: 400px;
+}
+.contenido-comunicate{
+    margin-left: -52px;
+}
+
+.d-flex{
+    margin-left: 134px;
+}
+
+/* footer */
+ footer{
+    width: 917px;
+ }
+}
+
+
+	
+ 
+
+
