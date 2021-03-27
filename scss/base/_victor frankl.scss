@@ -1,17 +1,17 @@
-
 /*victor frankl*/
 .victor-frankl {
-
-    
-          
-        .card-img-top:hover{
-          animation: fadeIn; 
-          animation-duration: 1s; 
-        }
-  
-         
-      
-
-      
-      
+  .h1-victor{
+    padding-top: 30px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .row{
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px;
+  }
+  .card-img-top:hover {
+    animation: fadeIn;
+    animation-duration: 1s;
+  }
 }
