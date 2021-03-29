@@ -51,7 +51,7 @@ header .nav-link {
 
 /* profesionales */
 .profesionales {
-  margin-top: 306px;
+  margin-top: 360px;
 }
 .profesionales .h1-profesionales {
   width: 90%;
@@ -83,6 +83,9 @@ header .nav-link {
   animation: fadeIn;
   animation-duration: 1s;
 }
+.victor-frankl .victor-frankl {
+  margin-top: 109px;
+}
 
 /* footer */
 footer .flex-footer {
@@ -104,57 +107,71 @@ footer .contenido-footer {
   padding: 10px;
 }
 
-/*
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    align-items: center;
-    gap: 30px;
+.h3-footer:hover {
+  color: #a8cf68;
+}
 
-*/
 @media only screen and (max-width: 400px) {
   /* fundacion logoterapia */
   .h1-logoterapia {
-    width: 617px;
+    position: relative;
+    left: 104px;
   }
 
   /* profesionales */
+  .profesionales {
+    margin-top: 100px;
+  }
+
   .h1-profesionales {
-    width: 617px;
+    position: relative;
+    left: 104px;
   }
 
   .d-flex {
     position: relative;
-    left: 113px;
-  }
-
-  .contenedor-profesionales {
-    margin-left: 20px;
-  }
-
-  .card {
-    margin-right: 10px;
+    left: 107px;
   }
 
   /* victor frankl*/
+  .victor-frankl {
+    margin-top: 100px;
+  }
+
   .h1-victor {
-    width: 617px;
+    position: relative;
+    left: 104px;
+  }
+
+  .row {
+    position: relative;
+    left: 105px;
   }
 
   /* Comunicate con nosotros */
+  .comunicate {
+    margin-top: 100px;
+  }
+
   .h1-comunicate {
-    width: 617px;
+    position: relative;
+    left: 104px;
   }
 
   .contenido-mapa {
     position: relative;
-    top: 610px;
-    right: 504px;
+    top: 596px;
+    right: 460px;
+  }
+
+  .mapa {
+    width: 300%;
   }
 
   /*footer*/
   footer {
-    width: 620px;
+    width: 569px;
+    margin-top: 566px;
   }
   footer .flex-footer {
     margin-left: 150px;
@@ -168,41 +185,41 @@ footer .contenido-footer {
 }
 /* fin de mobile */
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* logoterapia */
-  .h1-logoterapia {
-    width: 908px;
-  }
-
   /* profesionales */
-  .h1-profesionales {
-    width: 908px;
+  .profesionales {
+    margin-top: 109px;
   }
 
-  /* Victor frankl */
-  .h1-victor {
-    width: 908px;
+  /* victor frankl */
+  .victor-frankl {
+    margin-top: 109px;
   }
 
   /* Comunicate con nosotros */
-  .h1-comunicate {
-    width: 908px;
+  .comunicate {
+    margin-top: 109px;
+  }
+
+  .dejanos {
+    margin-left: 45px;
+  }
+
+  .contenido-mapa {
+    margin-left: 131px;
+    margin-top: 30px;
   }
 
   .mapa {
-    width: 400px;
+    width: 463px;
   }
 
   .contenido-comunicate {
-    margin-left: -52px;
-  }
-
-  .d-flex {
-    margin-left: 134px;
+    flex-direction: column;
   }
 
   /* footer */
   footer {
-    width: 917px;
+    width: 839px;
   }
 }
 #form-main {
